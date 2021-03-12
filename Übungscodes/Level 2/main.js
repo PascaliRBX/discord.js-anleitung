@@ -1,5 +1,5 @@
 const Discord = require("discord.js")
-const bot = nw Discord.Client()
+const bot = new Discord.Client()
 
 bot.on( message => {
 if(message.content === "Ping") return message.reply("Pong")
